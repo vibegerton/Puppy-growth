@@ -1,0 +1,14 @@
+import "./globals.css";
+
+export const metadata = {
+  title: "Puppy Groei",
+  description: "Puppy groei bijhouden en volwassen grootte schatten"
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="nl">
+      <body>{children}</body>
+    </html>
+  );
+}
